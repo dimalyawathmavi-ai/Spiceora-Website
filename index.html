@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPICEORA | Premium Ceylon Spices</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <nav class="nav-left">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#products">Products</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+
+      <div class="brand">
+        <div class="brand-mark">✶</div>
+        <div class="brand-name">SPICEORA</div>
+      </div>
+
+      <div class="nav-right">
+        <button class="icon-btn" aria-label="Search">🔍</button>
+        <button class="icon-btn" aria-label="Cart">🛒</button>
+        <button class="icon-btn" aria-label="Help">❔</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Premium<br/>Ceylon Spices</h1>
+          <p>High-quality spices directly sourced from Sri Lanka.</p>
+          <a class="btn" href="#products">Shop Now</a>
+        </div>
+
+        <div class="hero-image" role="img" aria-label="Spices photo"></div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section">
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">High-quality spices directly sourced from Sri Lanka</p>
+
+        <div class="grid">
+          <article class="card">
+            <div class="product-img cardamom" aria-label="Cardamom"></div>
+            <h3>Cardamom</h3>
+            <p class="price">Rs 2,000 per 100g</p>
+            <button class="btn btn-small" onclick="orderNow('Cardamom')">ORDER NOW</button>
+          </article>
+
+          <article class="card">
+            <div class="product-img pepper" aria-label="Black Pepper"></div>
+            <h3>Black Pepper</h3>
+            <p class="price">Rs 1,500 per 100g</p>
+            <button class="btn btn-small" onclick="orderNow('Black Pepper')">ORDER NOW</button>
+          </article>
+
+          <article class="card">
+            <div class="product-img turmeric" aria-label="Turmeric"></div>
+            <h3>Turmeric</h3>
+            <p class="price">Rs 1,200 per 100g</p>
+            <button class="btn btn-small" onclick="orderNow('Turmeric')">ORDER NOW</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose -->
+    <section class="section alt">
+      <div class="container">
+        <h2 class="section-title">Why Choose SPICEORA?</h2>
+
+        <div class="features">
+          <div class="feature">
+            <div class="feature-icon">👨‍🌾</div>
+            <h4>Direct from Sri Lanka</h4>
+            <p>Farm-to-home freshness with trusted sourcing.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">✅</div>
+            <h4>Premium Quality</h4>
+            <p>Carefully selected, cleaned, and packed.</p>
+          </div>
+
+          <div class="feature">
+            <div class="feature-icon">🌿</div>
+            <h4>100% Natural</h4>
+            <p>No additives. No artificial colors. Pure spices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About + Contact -->
+    <section id="about" class="section">
+      <div class="container two-col">
+        <div>
+          <h2 class="section-title left">About Us</h2>
+          <p class="text">
+            We are committed to bringing you the best Sri Lankan spices.
+            SPICEORA delivers fresh, aromatic spices with care and quality.
+          </p>
+
+          <div id="contact" class="contact-box">
+            <div class="contact-row">
+              <span class="contact-icon">📞</span>
+              <span class="contact-text">+94 77 123 4567</span>
+            </div>
+            <div class="contact-row">
+              <span class="contact-icon">✉️</span>
+              <span class="contact-text">info@spiceora.com</span>
+            </div>
+
+            <a class="btn btn-small" href="https://wa.me/94771234567" target="_blank" rel="noreferrer">
+              CHAT ON WHATSAPP
+            </a>
+          </div>
+        </div>
+
+        <div class="about-image" aria-label="Sri Lanka farm image"></div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© 2026 SPICEORA Spice House. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
